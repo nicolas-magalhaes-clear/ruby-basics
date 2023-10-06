@@ -5,7 +5,7 @@ class Pessoa
 
 end
 
-
+#Class pessoafisica extends pessoa
 class PessoaFisica < Pessoa
 
     attr_accessor :cpf
@@ -17,7 +17,7 @@ class PessoaFisica < Pessoa
 
 end
 
-
+#class PessoaJuridica extends Pessoa
 class PessoaJuridica < Pessoa
 
     attr_accessor :cnpj
